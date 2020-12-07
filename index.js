@@ -1,7 +1,7 @@
 // ENTER NAMES:
 
 var p1Name = prompt("Please enter 1st player's name");
-var p2Name = prompt ("Please enter 2nd player's named");
+var p2Name = prompt ("Please enter 2nd player's name");
 
 document.querySelector(".player1").innerHTML = p1Name;
 document.querySelector(".player2").innerHTML = p2Name;
