@@ -17,10 +17,10 @@ body {
 
 h1 {
   margin: 20px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 10px 0 #232931;
-  font-size: 6rem;
-  color: red;
+  font-family: 'Georgia', cursive;
+  text-shadow: 15px 0 #232931;
+  font-size: 4.5rem;
+  color: Yellow;
 }
 
 h4 {
@@ -46,13 +46,19 @@ footer {
 
 }
 
+.playButtonDiv {
+  text-align: center;
+  align-self: center;
+}
+
 .playButton {
   text-align: center;
   align-self: center;
-  padding: 1rem;
-}
-
-
-.testButton {
-  padding: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #4CAF50; /* Green */
+  border:2rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
 }
